@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/relativeLayout"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".FirstFragment">
+
+    <Button
+        android:id="@+id/button_first"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="124dp"
+        android:text="@string/next"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="360dp"
+        android:layout_height="363dp"
+        android:layout_marginTop="132dp"
+        android:text="Setup Android Environment: \n\nCheck the system requirements for the installation.\nMake sure you have enough CPU for the installation.\nMake sure you have enough memory for the installation.\nCheck if you have enough hard disk space.\nDecide where you would like to install the IDE.\nFind the correct IDE download for your OS.\nDownload the IDE from android.com.\nFind the correct Java runtime for your OS.\nDownload the latest Java runtime.\nFind the correct Java SDK for your OS.\nDownload the latest Java SDK.\nInstall the Java SDK.\nInstall the Java runtime.\nLaunch the install for Android studio.\nSelect the path that you want to install to.\nFollow the rest of the instructions to start the installation.\nInstall Android studio.\nDouble check that everything installed correctly.\nVisit the Android tutorials for usage.\n"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".SecondFragment">
+
+    <TextView
+        android:id="@+id/textview_second"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+
+    <Button
+        android:id="@+id/button_second"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginEnd="175dp"
+        android:layout_marginBottom="368dp"
+        android:text="@string/previous" />
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="84dp"
+        android:text="Create New Project: \n\n* Make sure you have the latest version installed.\n* Open Android Studio\n* Select Start a new Android Studio project.\n* On the Create New Project window that opens.\n* Name your project.\n* If you choose to, set the company name as desired.\n* Set your directory if desired..\n* Click Next.\n* Select Phone and Tablet.\n* Double check operating system level for your SDK.\n* Click Next.\n* Select Blank Activity.\n* Click Next.\n* Leave all of the Activity name fields as they are.\n* Click Finish.\n* Import existing project:\n* Click File > New > Import Project.\n* Navigate to the root directory of the project.\n* Click OK.\n    * Look through all the files created.\n* Look at layout XML.\n* Look at a MainActivity.java.\n* Double check all the properties of all the components.\n* Look for strings in the resources area.\n* Start getting familiar with the tool bars.\n* Start getting familiar with the menu system.\n* Explore all the available components.\n* Explore the java code organization.\n* Visit the in app tutorials.\n* Visit online tutorials.\n* Start coding your project.\n" />
+
+    <Button
+        android:id="@+id/button2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentEnd="true"
+        android:layout_marginEnd="211dp"
+        android:text="Next" />
+</RelativeLayout>
